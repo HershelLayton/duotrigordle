@@ -1,5 +1,5 @@
-import playable_words from "./assets/json/playable_words.json";
-import drawable_words from "./assets/json/drawable_words.json";
+import playable_words from "./assets/json/playable-words.json";
+import drawable_words from "./assets/json/drawable-words.json";
 
 export const NUM_BOARDS = 32;
 
