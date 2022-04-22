@@ -13,6 +13,6 @@ export const START_DATE = (() => {
   return new Date(utcDate + offset * 60 * 1000);
 })();
 
-export const WORDS_TARGET = playable_words
+export const WORDS_TARGET = drawable_words
 
-export const WORDS_VALID = new Set(drawable_words);
+export const WORDS_VALID = new Set(playable_words.concat(drawable_words));
